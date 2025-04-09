@@ -1,6 +1,9 @@
+# tests/test_count_feedback.py
 
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../')))
 
-import pytest
 from count_feedback import count_feedback_entries
 
 def test_count_feedback_entries():

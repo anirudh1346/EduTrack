@@ -26,21 +26,23 @@
 **Version Control:**
 
 **Version:** 1.1.0
-**Description:** Export feedback to .txt file
+**Description:** Adding functionality to export feedback to a text file.
 **Features:**
-Added functionality to export feedback data into `.txt` files using `report_generator.py`.
+- `export_feedback.py`: Exports feedback data to a text file.
 **Usage:**
-**To export feedback data into a text file:**
+- **Exporting Feedback**
+- **Creating GitHub Issue and Milestone**
+- **Linking Issue to Milestone**
+- **Documenting the Change**
+**Version Control:**
+- Created a new GitHub Issue titled "Export Feedback Functionality".
+- Created a new GitHub Milestone titled "v1.1 Release".
+- Linked the "Export Feedback Functionality" issue to the "v1.1 Release" Milestone.
+- Documented the addition of the export functionality in relevant documentation.
 
-from report_generator import export_feedback_to_txt
 
-feedback_data = [
-{"score": 85, "grade": "A"},
-{"score": 90, "grade": "A"},
-{"score": 70, "grade": "B"},
-{"score": 90, "grade": "A"},
-{"score": 60, "grade": "C"}
-]
-export_feedback_to_txt(feedback_data)
 
-This will generate a file named `feedback_report.txt` containing the feedback report.
+
+
+
+

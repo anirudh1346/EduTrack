@@ -1,3 +1,9 @@
+# tests/test_feedback_summary.py
+
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../')))
+
 from feedback_summary import summarize_feedback
 
 def test_summarize_feedback():

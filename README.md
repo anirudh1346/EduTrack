@@ -1,7 +1,7 @@
 # EduTrack
 # EduTrack Student Feedback Manager
 **Version:** 1.0.0
-**Description:** This project provides tools for collecting student feedback and calculating average scores.
+**Description:** Providing tools for collecting student feedback and calculating average scores.
 
 **Features:**
 - `feedback_entry.py`: Allows for the entry of student feedback .
@@ -13,4 +13,14 @@
 - **Testing**
 - **Continuous Integration**
 **Version Control:**
-- This project uses Git for version control. Feature development happens in separate branches, which are then merged into the `develop` branch and eventually into `main`.
+- This project uses Git for version control. 
+
+**Version:** 1.0.1
+**Description:** Creating a new branch for summarizing the feedback.
+**Features:**
+-`feedback_summary.py`: Summarizes feedback with top scores and grade-wise count
+**Usage:**
+- **Summarizing feedback**
+- **creating branch**
+- **Continuous Integration**
+**Version Control:**
